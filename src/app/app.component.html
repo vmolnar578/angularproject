@@ -1,0 +1,14 @@
+<div>
+<form [formGroup]="form" action="">
+  Dec: <input formControlName="dec" type="number" max="255" [(ngModel)]="dec" (change)="nastavBin()"><br><br>
+  Bin:
+  7<input formControlName="bin7" type="checkbox" (change)="nastavDec()">
+  6<input formControlName="bin6" type="checkbox" (change)="nastavDec()">
+  5<input formControlName="bin5" type="checkbox" (change)="nastavDec()">
+  4<input formControlName="bin4" type="checkbox" (change)="nastavDec()">
+  3<input formControlName="bin3" type="checkbox" (change)="nastavDec()">
+  2<input formControlName="bin2" type="checkbox" (change)="nastavDec()">
+  1<input formControlName="bin1" type="checkbox" (change)="nastavDec()">
+  0<input formControlName="bin0" type="checkbox" (change)="nastavDec()">
+</form>
+</div>
